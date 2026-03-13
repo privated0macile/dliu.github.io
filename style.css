@@ -1,8 +1,8 @@
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial;
-    background-color: #0e1117;
-    color: #e6edf3;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: #222;
 }
 
 /* NAVBAR */
@@ -11,98 +11,96 @@ nav {
     display: flex;
     justify-content: center;
     gap: 40px;
-    padding: 18px;
-    background: #161b22;
-    border-bottom: 1px solid #30363d;
+    padding: 20px;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 nav a {
     text-decoration: none;
-    color: #e6edf3;
+    color: #222;
     font-weight: 600;
 }
 
 nav a:hover {
-    color: #58a6ff;
+    color: #0072ce;
 }
 
-/* MAIN CONTAINER */
+/* PAGE WIDTH */
 
 .container {
-    max-width: 720px;
+    max-width: 900px;
     margin: auto;
-    padding: 50px 20px;
+    padding: 60px 20px;
 }
 
-/* HERO HEADER */
+/* HERO SECTION */
 
 .hero {
-    text-align: center;
-    margin-bottom: 40px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 60px;
 }
 
-.hero h1 {
-    font-size: 38px;
-    margin-bottom: 8px;
-}
-
-.subtitle {
-    color: #9da5b4;
-}
-
-/* PROFILE PHOTO */
+/* PROFILE IMAGE */
 
 .profile-pic {
-    width: 130px;
-    height: 130px;
-    object-fit: cover;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
-    display: block;
-    margin: 30px auto;
-    border: 3px solid #30363d;
+    object-fit: cover;
 }
 
 /* TEXT */
 
-p {
-    line-height: 1.7;
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
-
-/* SECTION HEADERS */
 
 h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 26px;
     margin-top: 40px;
-    color: #58a6ff;
 }
 
-/* CARD STYLE */
-
-.card {
-    background: #161b22;
-    padding: 25px;
-    border-radius: 10px;
-    border: 1px solid #30363d;
-    margin-top: 20px;
+.subtitle {
+    color: #666;
+    margin-bottom: 15px;
 }
 
-/* LIST */
+p {
+    line-height: 1.7;
+    margin-bottom: 16px;
+}
 
-ul {
-    padding-left: 20px;
+/* DIVIDER */
+
+.divider {
+    border-top: 1px solid #e5e5e5;
+    margin: 50px 0;
 }
 
 /* BUTTON */
 
 .button {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 15px;
     padding: 10px 18px;
-    background: #238636;
-    color: white;
-    border-radius: 6px;
+    border: 1px solid #222;
     text-decoration: none;
+    color: #222;
+    font-weight: 600;
 }
 
 .button:hover {
-    background: #2ea043;
+    background-color: #222;
+    color: white;
+}
+
+/* LIST */
+
+ul {
+    padding-left: 20px;
 }
